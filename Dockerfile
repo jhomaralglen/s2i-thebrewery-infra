@@ -31,4 +31,8 @@ RUN chmod +x kubeseal
 RUN mv kubeseal /usr/local/bin/kubeseal
 
 
+
+
+
+
 CMD ["/bin/sh"]
