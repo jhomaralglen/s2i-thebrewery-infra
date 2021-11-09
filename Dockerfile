@@ -28,5 +28,6 @@ RUN yum -y module enable nodejs:$NODEJS_VER && \
 # Install kubeseal CLI
 RUN wget https://github.com/bitnami-labs/sealed-secrets/releases/download/v0.16.0/kubeseal-linux-amd64 -O kubeseal
 RUN chmod +x kubeseal
+RUN mv kubeseal /usr/local/bin/kubeseal
 
 CMD ["/bin/sh"]
