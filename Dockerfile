@@ -30,4 +30,5 @@ RUN wget https://github.com/bitnami-labs/sealed-secrets/releases/download/v0.16.
 RUN chmod +x kubeseal
 RUN mv kubeseal /usr/local/bin/kubeseal
 
+
 CMD ["/bin/sh"]
